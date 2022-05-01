@@ -8,7 +8,7 @@
           <div class="form-group">
             <label for="email">Email</label>
             <input
-              type="email"
+              type="text"
               class="form-control"
               id="email"
               name="email"
@@ -72,13 +72,13 @@ export default {
         .then((res) => {
           if (res.status == "Created") {
             this.msg = "Seller created succesfuly";
-            setTimeout(() => (this.msg = ""), 5000);
+            setTimeout(() => (this.msg = ""), 10000);
             this.name = "";
             this.email = "";
           } else {
             var msgE = res.message + ": " + res.fails;
             this.msgError = msgE;
-            setTimeout(() => (this.msgError = ""), 5000);
+            setTimeout(() => (this.msgError = ""), 10000);
           }
         })
         .catch((error) => {
