@@ -180,6 +180,13 @@ Response
 #### On home page click on names
 ![image](https://user-images.githubusercontent.com/77355017/166166775-e3f2b1ee-f88a-4b31-b178-8483e0dee584.png)
 
+## Used MailTrap configuration to do the email report with sales
+![image](https://user-images.githubusercontent.com/77355017/166179324-433b8fa6-7ac0-4863-914f-241454d9149d.png)
+
+### Need to create an account and insert this configuration on .env of backend [mailtrap](https://mailtrap.io/)
+![image](https://user-images.githubusercontent.com/77355017/166180567-b4977de9-96e5-4cc2-8633-48a647bf2d1f.png)
+
+
 
 
 
